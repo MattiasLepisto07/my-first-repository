@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+  }
+  
+  article {
+    flex: 2;
+    overflow-y: auto;
+  }
+  
+  aside {
+    flex: 1;
+    overflow-y: auto;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: #2c3e50;
+  }
+  
+  p {
+    color: #333333;
+  }
+  
+  a {
+    color: #3498db;
+  }
+  
+  a:hover {
+    color: #e74c3c;
+  }
+  
+  @media (max-width: 768px) {
+    main {
+      flex-direction: column;
+    }
+  }
+  
+  li.logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
